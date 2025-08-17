@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
             excerpt: "Several Fortune 500 companies are revising their remote work policies as return-to-office mandates increase...",
             date: "yesterday ago",
             views: "892",
-            imagePath: './public/img4.webp'
+            imagePath: './public/img4.png'
         },
 
         {
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             excerpt: "Several Fortune 500 companies are revising their remote work policies as return-to-office mandates increase...",
             date: "2 hours ago",
             views: "892",
-            imagePath: './public/img4.webp'
+            imagePath: './public/img4.png'
         },
         {
             id: 2,
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
             excerpt: "New report shows tech salaries continue to outpace other industries by 15-20% on average...",
             date: " yesterday ago",
             views: "1,203",
-            imagePath: './public/img5.webp'
+            imagePath: './public/img5.png'
         },
         {
             id: 3,
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
             excerpt: "Experts reveal the most effective strategies for salary negotiation in today's job market...",
             date: "Yesterday",
             views: "2,456",
-            imagePath: './public/img6.webp'
+            imagePath: './public/img6.png'
         },
         {
             id: 4,
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
             excerpt: "Hospitals and clinics offering signing bonuses up to $20,000 for nursing positions...",
             date: "Yesterday",
             views: "1,789",
-            imagePath: './public/img7.webp'
+            imagePath: './public/img7.png'
         },
         {
             id: 5,
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
             excerpt: "LinkedIn report identifies the skills that will make candidates most competitive this year...",
             date: "2 days ago",
             views: "3,102",
-            imagePath: './public/img8.webp'
+            imagePath: './public/img8.png'
         },
         {
             id: 6,
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
             excerpt: "Companies experimenting with shortened work weeks report increased productivity and employee satisfaction...",
             date: "3 days ago",
             views: "2,345",
-            imagePath: './public/img2.webp'
+            imagePath: './public/img2.png'
         },
         {
             id: 7,
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
             excerpt: "Recruiters share the most common mistakes they see that immediately disqualify candidates...",
             date: "3 days ago",
             views: "4,567",
-            imagePath: './public/img1.webp'
+            imagePath: './public/img1.png'
         },
         {
             id: 8,
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
             excerpt: "New graduates can expect the highest starting salaries in these 10 metropolitan areas...",
             date: "4 days ago",
             views: "1,890",
-            imagePath: './public/img5.webp'
+            imagePath: './public/img5.png'
         }
     ];
 
