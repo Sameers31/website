@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerPulse - Job News Updates</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><span>Career</span>Pulse</h1>
+                <p>Your daily job market update</p>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="./blog-about.html">About Us</a></li>
+                    <li><a href="#">Salary Reports</a></li>
+                    <li><a href="#">Interview Tips</a></li>
+                    <li><a href="#">Resume Help</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="breaking-news">
+        <div class="container">
+            <span class="breaking-label">Breaking:</span>
+            <div class="">
+                <span> Tech companies announce 50,000 new jobs in Q3 • Remote work policies changing at major firms • New labor laws take effect next month</span>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="featured-job-news">
+                <h2 class="section-title">Today's Top Job News</h2>
+                <div class="featured-grid">
+                    <article class="featured-card main-feature">
+                        <div class="news-image">
+                            <img src="../public/img1.webp" alt="Job News">
+                            <span class="news-category">Industry Report</span>
+                        </div>
+                        <div class="news-content">
+                            <h3>Tech Sector Hiring Spree: 30% Increase in Open Positions</h3>
+                            <div class="news-meta">
+                                <span><i class="far fa-clock"></i> 2 hours ago</span>
+                                <span><i class="far fa-eye"></i> 1,245 views</span>
+                            </div>
+                            <p>Major tech companies are expanding their workforce with a focus on AI and cloud computing roles. Amazon, Google, and Microsoft lead the hiring surge...</p>
+                            <a href="#" class="read-more">Read Full Report <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="featured-card">
+                        <div class="news-image">
+                            <img src="../public/img2.webp" alt="Job News">
+                            <span class="news-category">Interview Tips</span>
+                        </div>
+                        <div class="news-content">
+                            <h3>5 New Interview Questions Companies Are Asking in 2023</h3>
+                            <div class="news-meta">
+                                <span><i class="far fa-clock"></i> 5 hours ago</span>
+                            </div>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="featured-card">
+                        <div class="news-image">
+                            <img src="../public/img3.webp" alt="Job News">
+                            <span class="news-category">Salary Data</span>
+                        </div>
+                        <div class="news-content">
+                            <h3>Average Salaries Jump 8% for These In-Demand Roles</h3>
+                            <div class="news-meta">
+                                <span><i class="far fa-clock"></i> Yesterday</span>
+                            </div>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <div class="content-wrapper">
+                <section class="latest-job-news">
+                    <h2 class="section-title">Latest Job Market Updates</h2>
+                    <div class="news-filters">
+                        <button class="filter-btn active" data-category="all">All</button>
+                        <button class="filter-btn" data-category="trends">Industry Trends</button>
+                        <button class="filter-btn" data-category="salaries">Salaries</button>
+                        <button class="filter-btn" data-category="tips">Career Tips</button>
+                    </div>
+                    <div class="news-grid" id="newsContainer">
+                        <!-- News articles will be loaded here by JavaScript -->
+                    </div>
+                    <button class="load-more" id="loadMore">Load More News</button>
+                </section>
+
+                <aside class="sidebar">
+                    <div class="sidebar-widget job-alerts">
+                        <h3><i class="fas fa-bell"></i> Job Alerts</h3>
+                        <p>Get the latest job openings delivered to your inbox</p>
+                        <form class="alert-form">
+                            <input type="email" placeholder="Your Email">
+                            <select>
+                                <option>Select Industry</option>
+                                <option>Technology</option>
+                                <option>Healthcare</option>
+                                <option>Finance</option>
+                                <option>Education</option>
+                            </select>
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+
+                    <div class="sidebar-widget trending-jobs">
+                        <h3><i class="fas fa-chart-line"></i> Trending Jobs</h3>
+                        <ul>
+                            <li>
+                                <span>AI Engineer</span>
+                                <span class="trend-up">+42%</span>
+                            </li>
+                            <li>
+                                <span>Cybersecurity Analyst</span>
+                                <span class="trend-up">+35%</span>
+                            </li>
+                            <li>
+                                <span>Data Scientist</span>
+                                <span class="trend-up">+28%</span>
+                            </li>
+                            <li>
+                                <span>Cloud Architect</span>
+                                <span class="trend-up">+25%</span>
+                            </li>
+                            <li>
+                                <span>HR Business Partner</span>
+                                <span class="trend-down">-5%</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-widget salary-calculator">
+                        <h3><i class="fas fa-calculator"></i> Salary Calculator</h3>
+                        <div class="calculator">
+                            <div class="form-group">
+                                <label>Job Title</label>
+                                <input type="text" placeholder="e.g. Software Engineer">
+                            </div>
+                            <div class="form-group">
+                                <label>Location</label>
+                                <input type="text" placeholder="e.g. New York">
+                            </div>
+                            <div class="form-group">
+                                <label>Experience</label>
+                                <select>
+                                    <option>Entry Level</option>
+                                    <option>Mid Level</option>
+                                    <option>Senior Level</option>
+                                </select>
+                            </div>
+                            <button class="calculate-btn">Estimate Salary</button>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h3>Get Weekly Job Market Reports</h3>
+                <p>Stay updated with the latest hiring trends, salary data, and career advice</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your Email Address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>CareerPulse</h4>
+                    <p>Your trusted source for job market news, career advice, and salary information.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Job Trends</a></li>
+                        <li><a href="#">Salary Reports</a></li>
+                        <li><a href="./blog-about.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Resume Templates</a></li>
+                        <li><a href="#">Interview Questions</a></li>
+                        <li><a href="#">Career Guides</a></li>
+                        <li><a href="#">Company Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> info@careerpulse.com</li>
+                        <li><i class="fas fa-phone"></i> (123) 456-7890</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Business St, New York</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CareerPulse. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="blog.js"></script>
+
+    <script type="text/javascript">
+    (function (l) {
+      if (l.search[1] === "/") {
+        var decoded = l.search
+          .slice(1)
+          .split("&")
+          .map(function (s) {
+            return s.replace(/~and~/g, "&");
+          })
+          .join("?");
+        window.history.replaceState(
+          null,
+          null,
+          l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    })(window.location);
+  </script>
+</body>
+</html>

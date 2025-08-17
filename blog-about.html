@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CareerPlus | Tech Career Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* CSS Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .logo span {
+            color: #3498db;
+        }
+
+        .tagline {
+            color: #7f8c8d;
+            font-size: 1.2rem;
+        }
+
+        /* About Section */
+        .about-section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        /* Tech Skills Grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .skill-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+            transition: transform 0.3s;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .skill-card i {
+            font-size: 1.5rem;
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+
+        /* Career Highlights */
+        .highlights {
+            margin-bottom: 30px;
+        }
+
+        .highlight-item {
+            display: flex;
+            margin-bottom: 15px;
+        }
+
+        .highlight-icon {
+            color: #3498db;
+            font-size: 1.2rem;
+            margin-right: 15px;
+            margin-top: 3px;
+        }
+
+        /* Call to Action */
+        .cta {
+            background: linear-gradient(135deg, #3498db, #2c3e50);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .cta h2 {
+            color: white;
+            border-bottom: none;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background: white;
+            color: #3498db;
+            padding: 12px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 20px;
+            transition: all 0.3s;
+        }
+
+        .cta-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #7f8c8d;
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: #3498db;
+            font-size: 1.5rem;
+            margin: 0 10px;
+            transition: all 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #2c3e50;
+        }
+        .home {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">My <span>CareerPlus</span></div>
+            <p class="tagline">Your Gateway to Tech Career Success</p>
+        </header>
+
+        <section class="about-section">
+           <div class="home"> <h2>About Us</h2> <a href="./blog.html"><h2>Home Back</h2></a></div>
+            <p>Welcome to <strong>My CareerPlus</strong>, the premier platform connecting tech professionals with their dream careers. We specialize in helping developers, engineers, and IT specialists navigate the competitive tech job market.</p>
+            <p>Our mission is to bridge the gap between talent and opportunity in the ever-evolving technology sector. Whether you're a seasoned professional or just starting your tech journey, we provide the tools and resources to accelerate your career growth.</p>
+        </section>
+
+        <section class="skills-section">
+            <h2>Tech Specializations</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Software Development</h3>
+                    <p>Full-stack, Frontend, Backend, Mobile</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Data Science</h3>
+                    <p>Machine Learning, AI, Analytics</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Cybersecurity</h3>
+                    <p>Ethical Hacking, Network Security</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud Computing</h3>
+                    <p>AWS, Azure, Google Cloud</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="highlights">
+            <h2>Why Choose My CareerPlus?</h2>
+            <div class="highlight-item">
+                <div class="highlight-icon"><i class="fas fa-check-circle"></i></div>
+                <div>
+                    <h3>Curated Tech Jobs</h3>
+                    <p>Access to exclusive opportunities at top tech companies and startups.</p>
+                </div>
+            </div>
+            <div class="highlight-item">
+                <div class="highlight-icon"><i class="fas fa-check-circle"></i></div>
+                <div>
+                    <h3>Career Coaching</h3>
+                    <p>Personalized guidance from industry experts.</p>
+                </div>
+            </div>
+            <div class="highlight-item">
+                <div class="highlight-icon"><i class="fas fa-check-circle"></i></div>
+                <div>
+                    <h3>Skill Development</h3>
+                    <p>Workshops and resources to keep your skills sharp.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Ready to Boost Your Tech Career?</h2>
+            <p>Join thousands of tech professionals who've accelerated their careers with My CareerPlus.</p>
+            <a href="#" class="cta-btn">Get Started Now</a>
+        </section>
+
+        <footer>
+            <p>© 2023 My CareerPlus. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
